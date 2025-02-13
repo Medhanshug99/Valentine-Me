@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Ultimate Match</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: black;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #a4508b, #ff80b0);
+            min-height: 100vh;
+            overflow-y: auto;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 5px solid #a4508b;
+        }
+
+        .info-section {
+            text-align: left;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            margin-bottom: 25px;
+            font-size: 1.3em;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 1.4em;
+            border-radius: 30px;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+        }
+
+        .yes {
+            background: #a4508b;
+            color: white;
+        }
+
+        .no {
+            background: white;
+            color: #a4508b;
+            border: 2px solid #a4508b;
+        }
+
+        .no:hover {
+            transform: translateX(20px);
+        }
+
+        .chat-image {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+        .custom-image {
+    width: 300px;  /* Adjust width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto; /* Centers the image */
+    border-radius: 10px; /* Optional: Rounds the corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow */
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Ultimate Match ❤️</h1>
+        <img src="https://via.placeholder.com/180" alt="Profile Picture" class="profile-img">
+        
+        <div class="info-section">
+            <h3>About Me</h3>
+            <p><strong>Height:</strong> 5'11" (180 cm) - Just the right height to reach the top shelf and grab your snacks. 😉</p>
+            <p><strong>Age:</strong> 18 years - Old enough to know better, young enough to do it anyway. 🎉</p>
+            <p><strong>Skills:</strong> Full-Stack Development, UI/UX Design, Meme Creation, Coffee Brewing, and making you smile. 😁</p>
+        </div>
+        
+        <div class="info-section">
+            <h3>Why Choose Me? 💡</h3>
+            <p>- Expert in meaningful (and meaningless) conversations. 😜</p>
+            <p>- Can turn your boring evenings into an exciting adventure. ✈️</p>
+            <p>- Knows the best coffee spots in town. ☕</p>
+            <p>- My playlists will make you fall in love... with music. 🎶</p>
+        </div>
+
+        <div class="info-section">
+            <h3>Hobbies & Fun Facts 🎯</h3>
+            <p>- I can design beautiful websites, but I think you’re more beautiful. 😉</p>
+            <p>- Huge fan of spontaneous road trips and late-night deep talks. 🌌</p>
+            <p>- Dogs love me, and I love them even more. 🐶</p>
+        </div>
+        
+        <img src="Funny pickup.jpg" alt="My Image" class="custom-image">
+
+        
+        <div class="buttons">
+            <button class="yes" onclick="alert('Yay! Let’s Chat!')">Let's Chat!</button>
+            <button class="no" onclick="alert('Maybe next time 😏')">Maybe Later...</button>
+        </div>
+    </div>
+</body>
+</html>
